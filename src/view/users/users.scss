@@ -1,0 +1,117 @@
+.user-list {
+  &__item {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+
+    &:hover {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01), 0 6px 6px rgba(0, 0, 0, 0.02);
+    }
+  }
+
+  &__status {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    padding: 0;
+  }
+
+  &__initials {
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(106, 158, 27);
+    color: #fff;
+    font-weight: 800;
+  }
+
+  &__content {
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  &__content__name {
+    background: #efefef;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 50px;
+    margin-top: 8px;
+    font-weight: 600;
+  }
+
+  &__content__website {
+    display: block;
+    padding: 6px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  &__content__label,
+  &__content__value {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 20px;
+  }
+
+  &__content__value {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 20px 6px 30px;
+  }
+
+  &__content__phone {
+    display: inline-flex;
+    background: #efefef;
+    border: 1px solid rgb(228, 225, 225);
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: #444;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+    align-items: center;
+
+    span {
+      margin-left: 6px;
+    }
+  }
+}
+
+.user-search {
+  &__group {
+    margin: 40px 0 30px;
+    position: relative;
+
+    &__icon {
+      position: absolute;
+      top: 18px;
+      right: 15px;
+      color: rgb(122, 122, 122);
+      pointer-events: none;
+    }
+  }
+
+  &__field {
+    font-family: "Manrope", sans-serif;
+    width: 100%;
+    font-size: 17px;
+    padding: 16px 20px;
+    border-radius: 4px;
+    border: 1px solid #efefef;
+    outline: none;
+    transition: all ease 0.3s;
+
+    &:hover {
+      border: 1px solid rgb(194, 191, 191);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01), 0 6px 6px rgba(0, 0, 0, 0.02);
+    }
+  }
+}
