@@ -7,4 +7,10 @@ Packages Added:
   * React Feather ( icons )
   * React Router Dom ( Navigation )
 
+Live Preview: https://team-search.netlify.app/
+
+Notes: Please use tab key on the keyboard to navigate to contact list.
+
+
+
 
